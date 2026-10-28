@@ -1,3 +1,9 @@
-remote_theme: "owasp/www--site-theme@main"
-plugins:
- - jekyll-include-cache-0.2.0
+# This site now only redirects to https://owasp.org/projects.
+# The legacy content is kept in the repo for history but no longer published.
+exclude:
+  - assets
+  - CONTRIBUTING.md
+  - Gemfile
+  - leaders.md
+  - LICENSE.md
+  - tab_example.md
